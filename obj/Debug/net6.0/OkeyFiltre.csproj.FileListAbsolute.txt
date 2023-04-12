@@ -1,0 +1,15 @@
+/Users/cagataybuluc/Developments/OkeyFiltre/bin/Debug/net6.0/OkeyFiltre
+/Users/cagataybuluc/Developments/OkeyFiltre/bin/Debug/net6.0/OkeyFiltre.deps.json
+/Users/cagataybuluc/Developments/OkeyFiltre/bin/Debug/net6.0/OkeyFiltre.runtimeconfig.json
+/Users/cagataybuluc/Developments/OkeyFiltre/bin/Debug/net6.0/OkeyFiltre.dll
+/Users/cagataybuluc/Developments/OkeyFiltre/bin/Debug/net6.0/OkeyFiltre.pdb
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/OkeyFiltre.csproj.AssemblyReference.cache
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/OkeyFiltre.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/OkeyFiltre.AssemblyInfoInputs.cache
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/OkeyFiltre.AssemblyInfo.cs
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/OkeyFiltre.csproj.CoreCompileInputs.cache
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/OkeyFiltre.dll
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/refint/OkeyFiltre.dll
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/OkeyFiltre.pdb
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/OkeyFiltre.genruntimeconfig.cache
+/Users/cagataybuluc/Developments/OkeyFiltre/obj/Debug/net6.0/ref/OkeyFiltre.dll
