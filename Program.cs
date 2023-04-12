@@ -18,6 +18,7 @@
             // List of existing tables.
             List<Table> tables = new List<Table>();
 
+            // Generating 100 game with random features
             for (int i = 0; i < numberOfTable; i++)
             {
                 var random = new Random();
@@ -31,7 +32,7 @@
 
                 // Console.WriteLine("Id: {0} Bahis: {1} Hızlı: {2} Teke Tek: {3} Rövanşlı: {4}", table.Id, table.Bahis, table.Hizli, table.TekeTek, table.Rovansli);
             }
-
+            // Players' preferences are gotten as input.
             Console.WriteLine("Min bahis araliği [200$-5000$]");
             int minBet = Convert.ToInt32(Console.ReadLine());
 
@@ -111,11 +112,14 @@
                     suitableTables.Add(table);
                 }
             }
+
+            // Suitable tables are listed
             foreach (Table table in suitableTables)
             {
                 Console.WriteLine("Id: {0} Bahis: {1} Hizli: {2} Teke Tek: {3} Rövansli: {4}", table.Id, table.Bahis, table.Hizli, table.TekeTek, table.Rovansli);
             }
 
+            // If there is no suitable table for the user.
             int sayac = suitableTables.Count();
             if (sayac == 0)
             {
