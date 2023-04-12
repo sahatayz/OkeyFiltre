@@ -32,7 +32,7 @@
                 // Console.WriteLine("Id: {0} Bahis: {1} Hızlı: {2} Teke Tek: {3} Rövanşlı: {4}", table.Id, table.Bahis, table.Hizli, table.TekeTek, table.Rovansli);
             }
 
-            Console.WriteLine("Min bahis aralığı [200$-5000$]");
+            Console.WriteLine("Min bahis araliği [200$-5000$]");
             int minBet = Convert.ToInt32(Console.ReadLine());
 
             if (minBet < 200)
@@ -41,7 +41,7 @@
                 Environment.Exit(0);
             }
 
-            Console.WriteLine("Max bahis aralığı [200$-5000$]");
+            Console.WriteLine("Max bahis araligi [200$-5000$]");
             int maxBet = Convert.ToInt32(Console.ReadLine());
 
             if (maxBet > 5000)
@@ -56,13 +56,13 @@
                 Environment.Exit(0);
             }
 
-            Console.Write("Hızlı masa istiyor musunuz? (e/h): ");
+            Console.Write("Hizli masa istiyor musunuz? (e/h): ");
             string hizli = Console.ReadLine().ToLower();
 
             Console.Write("Teke Tek masa istiyor musunuz? (e/h): ");
             string tekeTek = Console.ReadLine().ToLower();
 
-            Console.Write("Rövanşlı masa istiyor musunuz? (e/h): ");
+            Console.Write("Rövansli masa istiyor musunuz? (e/h): ");
             string rovansli = Console.ReadLine().ToLower();
 
             // Suitable tables' list for player.
@@ -113,13 +113,13 @@
             }
             foreach (Table table in suitableTables)
             {
-                Console.WriteLine("Id: {0} Bahis: {1} Hızlı: {2} Teke Tek: {3} Rövanşlı: {4}", table.Id, table.Bahis, table.Hizli, table.TekeTek, table.Rovansli);
+                Console.WriteLine("Id: {0} Bahis: {1} Hizli: {2} Teke Tek: {3} Rövansli: {4}", table.Id, table.Bahis, table.Hizli, table.TekeTek, table.Rovansli);
             }
 
             int sayac = suitableTables.Count();
             if (sayac == 0)
             {
-                Console.WriteLine("Filtrenize uygun masa bulunmamaktadır.");
+                Console.WriteLine("Filtrenize uygun masa bulunmamaktadir.");
                 Environment.Exit(0);
             }
         }
